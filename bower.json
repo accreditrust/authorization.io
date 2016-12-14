@@ -1,6 +1,12 @@
 {
-  "name": "authorization.io",
-  "version": "0.3.0",
+  "name": "authio",
+  "moduleType": [
+    "amd"
+  ],
+  "main": [
+    "./main.js",
+    "./authorization.io.less"
+  ],
   "private": true,
   "description": "authorization.io website bower dependencies.",
   "dependencies": {

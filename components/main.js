@@ -19,7 +19,7 @@ define([
 'use strict';
 
 var module = angular.module('authio', [
-  /* 'authio.idp-test',*/
+  /*'authio.idp-test',*/
   'bedrock.alert', 'bedrock.form', 'bedrock-navbar']);
 
 Array.prototype.slice.call(arguments, 1).forEach(function(register) {
